@@ -1,0 +1,11 @@
+[package]
+name = "motion"
+version = "0.1.0"
+authors = ["Evgeny Nerush <nerush@appl.sci-nnov.ru>"]
+
+[lib]
+crate-type = ["dylib"]
+
+[dependencies]
+libc = "*"
+rand = "0.3.0"
